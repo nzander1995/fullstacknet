@@ -1,9 +1,3 @@
-[![Actions Status Web](https://github.com/asadsahi/aspnetcorespa/workflows/Web/badge.svg)](https://github.com/asadsahi/aspnetcorespa/actions?query=workflow%3AWEB)
-[![Actions Status STS](https://github.com/asadsahi/aspnetcorespa/workflows/STS/badge.svg)](https://github.com/asadsahi/aspnetcorespa/actions?query=workflow%3ASTS)
-[![Build Status](https://asadsahi.visualstudio.com/playground/_apis/build/status/asadsahi.AspNetCoreSpa?branchName=master)](https://asadsahi.visualstudio.com/playground/_build/latest?definitionId=20&branchName=master)
-[![Build status](https://ci.appveyor.com/api/projects/status/35j3sxdi22rhg70c?svg=true)](https://ci.appveyor.com/project/asadsahi/aspnetcorespa)
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-
 ## Features
 
 - [ASP.NET Core 7.0](http://www.dot.net/)
@@ -15,7 +9,7 @@
 - Secure - with CSP and custom security headers
 - [SignalR](https://github.com/aspnet/SignalR/)
 - [SASS](http://sass-lang.com/)
-- Best [practices](https://angular.io/docs/ts/latest/guide/style-guide.html) for Angular code organisation.
+- Best [practices](https://angular.io/docs/ts/latest/guide/style-guide.html) for Angular code organization.
 - [Clean Architecture](https://github.com/jasontaylordev/CleanArchitecture) inspired from Jason Taylor.
 - [PWA support](https://developers.google.com/web/progressive-web-apps/)
 - Fast Unit Testing with [Jest](https://facebook.github.io/jest/).
@@ -39,15 +33,15 @@
 
 1. Clone the repo:
 
-   git clone https://github.com/asadsahi/AspNetCoreSpa
+   git clone
 
 2. Change directory:
 
-   cd AspNetCoreSpa
+   cd AspNetCoreAIO
 
 3. Restore packages:
 
-   dotnet restore AspNetCoreSpa.sln
+   dotnet restore AspNetCoreAIO.sln
 
 4. Install npm packages:
 
@@ -204,14 +198,14 @@ From powershell:
 
 # Deploy to heroku using its container service
 
-### Replace your app name where it is `aspnetcorespa`
+### Replace your app name where it is `aspnetcoresaio`
 
 - dotnet publish -c release
-- docker build -t aspnetcorespa ./bin/release/net7.0/publish
+- docker build -t aspnetcoreaio ./bin/release/net7.0/publish
 - heroku login
 - heroku container:login
-- docker tag aspnetcorespa registry.heroku.com/aspnetcorespa/web
-- docker push registry.heroku.com/aspnetcorespa/web
+- docker tag aspnetcoreaio registry.heroku.com/aspnetcoreaio/web
+- docker push registry.heroku.com/aspnetcoreaio/web
   Note: There is a `deploy.heroku.ps1` script included with this project which automates above steps.
 
 # Deploy to Azure as App Service
@@ -224,5 +218,3 @@ From powershell:
 ```
 
 ---
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RB7XESV8CP7GW)
