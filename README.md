@@ -1,4 +1,8 @@
-
+[![Actions Status Web](https://github.com/asadsahi/aspnetcorespa/workflows/Web/badge.svg)](https://github.com/asadsahi/aspnetcorespa/actions?query=workflow%3AWEB)
+[![Actions Status STS](https://github.com/asadsahi/aspnetcorespa/workflows/STS/badge.svg)](https://github.com/asadsahi/aspnetcorespa/actions?query=workflow%3ASTS)
+[![Build Status](https://asadsahi.visualstudio.com/playground/_apis/build/status/asadsahi.AspNetCoreSpa?branchName=master)](https://asadsahi.visualstudio.com/playground/_build/latest?definitionId=20&branchName=master)
+[![Build status](https://ci.appveyor.com/api/projects/status/35j3sxdi22rhg70c?svg=true)](https://ci.appveyor.com/project/asadsahi/aspnetcorespa)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 ## Features
 
@@ -28,8 +32,8 @@
 1. [.Net 7.0 SDK](https://www.microsoft.com/net/core#windows)
 2. [Visual studio 2019](https://www.visualstudio.com/) OR [VSCode](https://code.visualstudio.com/) with [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) extension
 3. [NodeJs](https://nodejs.org/en/) (Latest LTS)
-4. [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server)
-5. [Docker](https://www.docker.com/) 
+4. [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server) (Optional: If MS SQL server required instead of Sqlite during development)
+5. [Docker](https://www.docker.com/) (Optional: If application will run inside docker container)
 
 ## Installation
 
@@ -220,3 +224,5 @@ From powershell:
 ```
 
 ---
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RB7XESV8CP7GW)
